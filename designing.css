@@ -1,0 +1,57 @@
+
+.background{
+    background-image: url('black-gothic-victorian.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    width: 620px;
+    
+    margin-left: 270px;
+    margin-top: 130px;
+    display:block;
+}
+.titles
+{
+    color: blanchedalmond;
+    font-size: 28px;
+    cursor: pointer;
+    transition: text-decoration 0.5s;
+    display: block;
+    margin-bottom: 4px;
+    
+}
+
+a:link{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+a:visited{
+    color: blanchedalmond;
+}
+a:hover{
+    color: palevioletred;
+}
+.photo{
+    margin: 200px auto;
+    margin: 50px auto;
+}
+.photo image
+{
+    width: 100%;
+}
+nav ul ul
+{
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul ul li {
+    text-decoration: none;
+}
+nav ul ul li:hover{
+    color: palevioletred;
+}
